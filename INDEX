@@ -9,14 +9,14 @@
             font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('imagens/Fundo.jpg');
+            background-image: url('Fundo.jpg');
             background-repeat: no-repeatS;
             z-index: -3;
         }
         
         /* ( Banner principal ) */
         header {
-            background-image: url('imagens/topo1.jpg'); 
+            background-image: url('topo1.jpg'); 
             box-shadow: 5px 5px 15px #333;
             background-size: cover;
             background-position: center;
@@ -154,30 +154,30 @@
     <!-- Seção de Botões: Eventos, Cursos, História -->
     <section class="container-buttons">
         <div class="button">
-            <img src="imagens/iconeventos.png" alt="Eventos">
+            <img src="iconeventos.png" alt="Eventos">
             <span>Eventos</span>
         </div>
         <div class="button">
-            <img src="imagens/iconecursos.png" alt="Cursos">
+            <img src="iconecursos.png" alt="Cursos">
             <span>Cursos</span>
         </div>
         <div class="button">
-            <img src="imagens/iconehistoria.png" alt="História">
+            <img src="iconehistoria.png" alt="História">
             <span>História</span>
         </div>
     </section>
 
     <!-- Seção dos Gestores e Contato -->
     <section class="img">
-        <img src="imagens/iconegestores1.png" alt="Gestores" style="width: 400px;border-radius: 50%;box-shadow: 5px 5px 15px #333;background-color: #C1FF72;">
-        <img src="imagens/iconfaleconosc.png" alt="Gestores" style="width: 400px;border-radius: 50%;box-shadow: 5px 5px 15px #333;background-color: #C1FF72;">
+        <img src="iconegestores1.png" alt="Gestores" style="width: 400px;border-radius: 50%;box-shadow: 5px 5px 15px #333;background-color: #C1FF72;">
+        <img src="iconfaleconosc.png" alt="Gestores" style="width: 400px;border-radius: 50%;box-shadow: 5px 5px 15px #333;background-color: #C1FF72;">
         <a href="https://vidadebicho.globo.com/racas/noticia/2022/01/ashera-voce-ja-ouviu-falar-do-gato-mais-caro-do-mundo.ghtml" class="img1-button">Conheça nossos gestores!</a>
-        <a href="https://vidadebicho.globo.com/racas/noticia/2022/01/ashera-voce-ja-ouviu-falar-do-gato-mais-caro-do-mundo.ghtml" class="img2-button">Fale Conosco!</a>
+        <a class="img2-button">Fale Conosco!</a>
         <a class="whatsapp-button" href="https://wa.me/5586994477839?text=Olá, tenho algumas dúvidas." target="_blank">
-            <img src="imagens/iconewhats.png" style="width:70px;" >
+            <img src="iconewhats.png" style="width:70px;" >
         </a>
         <a href="https://www.instagram.com/seuusuario" target="_blank" class="instagram-button">
-            <img src="imagens/iconeinsta.png" alt="Instagram" style="width:70px;">
+            <img src="iconeinsta.png" alt="Instagram" style="width:70px;">
         </a>    
     </section>
 
