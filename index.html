@@ -21,12 +21,19 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
-            height: 30%; 
+            height: 100px; 
             display: flex;
             flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            justify-content: space-between;
+            align-items: space-between;
+            flex-basis: 100%
         }
+        
+        @media (min-width:600px) {
+            header {
+                flex-wrap: nowrap;
+            }
+            
         header h1 {
             background-color: #ffeb3b;
             box-shadow: 4px 7px 5px #333;
