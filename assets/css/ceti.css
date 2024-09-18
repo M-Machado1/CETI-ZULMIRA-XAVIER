@@ -1,0 +1,152 @@
+body {
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Fundo.jpg');
+    background-repeat: no-repeatS;
+    z-index: -3;
+}
+
+/* ( Banner principal ) */
+header {
+    background-image: url('topo.jpg'); 
+    box-shadow: 5px 5px 15px #333;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    background-color: #ffeb3b;
+    box-shadow: 4px 7px 5px #333;
+    font-family: 'Verdana';
+    text-shadow: 2px 2px 5px #333;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/* ( Seção de Botões: Eventos, Cursos, História ) */
+.button {
+    background: #FFEB3B; 
+    border-radius: 100px; 
+    padding: 10px 20px; 
+    display: flex; 
+    text-shadow: 2px 2px 5px #333;
+    box-shadow: 5px 5px 15px #333; 
+    width: 450px; 
+    height: 80px;
+    cursor: pointer; 
+    margin: 2px;
+    align-items: center; 
+    overflow: hidden;
+}
+.container-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 600px; 
+    gap: 35px;
+}
+.button img {
+    width: 80px; 
+    height: auto;
+    margin-right: 102px; 
+}
+
+.button span {
+    font-size: 40px; 
+    font-weight: bold; 
+    color: #ffffff; 
+    line-height: 2; 
+}
+
+/* Seção dos gestores e contato */
+.img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    margin: 0 210px;
+    display: flex; 
+    flex-direction: row;
+    gap: 160px;
+}
+
+.img img {
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #333;
+    background-color: #ABD17A;
+}
+.img1-button {
+    position: absolute;
+    cursor: pointer;
+    top: 145px; 
+    left: 91px; 
+    color: #ffffff; /* Precisa escolher uma cor para a fonte*/
+    padding: 30px; 
+    font-size: 16px;  
+    font-family: 'PlaypenSans';         
+    font-weight: bold;
+ }
+
+ @font-face{
+    font-family: 'PlaypenSans';
+    src: url('PlaypenSans-VariableFont_wght.ttf');
+ }
+ .img2-button {
+    position: absolute;
+    cursor: pointer;
+    top: 113px; 
+    left: 655px; 
+    color: #313131; /* Precisa escolher uma cor para a fonte*/
+    padding: 20px; 
+    font-size: 20px; 
+    font-family: 'NewAmsterdam';
+    font-weight: bold;
+ }
+
+ @font-face{
+    font-family: 'NewAmsterdam';
+    src: url('NewAmsterdam-Regular.ttf');
+ }
+
+.whatsapp-button {
+    top: 264.1px;
+    left: 653.6px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    height: auto;
+    border-radius: 50%; 
+
+}
+.instagram-button {
+    top: 262.5px;
+    left: 760px;
+    position: absolute;
+    bottom: 20px; 
+    right: 20px;
+    z-index: 1000;
+    height: auto;
+    border-radius: 50%; 
+}
+
+
+/* Rodapé */
+footer {
+    position: relative;
+    background-color: #101f35;
+    color: #fff;
+    text-align: center;
+    padding: 9px;
+    top: 100%;
+}
