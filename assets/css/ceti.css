@@ -1,21 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html{
+    font-size: 16px ;
+    width: 100%;
+}
 body {
-    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('../img/Fundo.jpg');
-    background-repeat: no-repeatS;
-    z-index: -3;
+    border: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url('../img/Fundo.jpg');
+    background-repeat: repeat; */
 }
 
+body > div{
+    width: 100%;
+    background-image: url('../img/Fundo.jpg');
+    background-repeat: repeat;
+}
 /* ( Banner principal ) */
 header {
+    width: 100%;
     background-image: url('../img/topo.jpg'); 
     box-shadow: 5px 5px 15px #333;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    height: 30%; 
+    /* background-repeat: no-repeat; */
+    height: 11.5rem; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,7 +91,7 @@ header h1 {
     gap: 160px;
 }
 
-.img img {
+.img > div > img {
     width: 400px;
     border-radius: 50%;
     box-shadow: 5px 5px 15px #333;
@@ -88,7 +99,6 @@ header h1 {
 }
 .img1-button {
     position: absolute;
-    cursor: pointer;
     top: 145px; 
     left: 91px; 
     color: #ffffff; /* Precisa escolher uma cor para a fonte*/
@@ -98,15 +108,20 @@ header h1 {
     font-weight: bold;
  }
 
+ a > img {
+    background-color: #fff;
+    border-radius: 35%;
+    box-shadow: 5px 5px 15px #333;
+ }
  @font-face{
     font-family: 'PlaypenSans';
     src: url('PlaypenSans-VariableFont_wght.ttf');
  }
  .img2-button {
     position: absolute;
-    cursor: pointer;
-    top: 113px; 
-    left: 655px; 
+    top: 115px; 
+    left: 648px;  
+    width: 10rem;
     color: #313131; /* Precisa escolher uma cor para a fonte*/
     padding: 20px; 
     font-size: 20px; 
@@ -121,7 +136,7 @@ header h1 {
 
 .whatsapp-button {
     top: 264.1px;
-    left: 653.6px;
+    left: 653.6px; 
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -132,7 +147,7 @@ header h1 {
 }
 .instagram-button {
     top: 262.5px;
-    left: 760px;
+    left: 760px; 
     position: absolute;
     bottom: 20px; 
     right: 20px;
@@ -141,13 +156,44 @@ header h1 {
     border-radius: 50%; 
 }
 
+#section_img{
+    display: flex;
+    flex-direction: column;
+}
+
+#img_section_img{
+    display: flex;
+    flex-direction: column;
+}
 
 /* Rodapé */
 footer {
+    width: 100%;
     position: relative;
     background-color: #101f35;
     color: #fff;
     text-align: center;
     padding: 9px;
     top: 100%;
+}
+
+@media screen and (max-width: 785px) {
+    section.img{
+        flex-direction: column;
+    }
+    .img2-button{
+        top: 674px;
+        left: 88px;
+    }
+    .whatsapp-button{
+        top: 829px;
+        left: 95.4px;
+    }
+    .instagram-button{
+        top: 827px;
+        left: 201.2px;
+    }
+    header > h1 {
+        font-size: 2rem;
+    }
 }
